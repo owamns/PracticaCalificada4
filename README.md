@@ -83,7 +83,7 @@ public class Clumps {
 - T4: un arreglo de un solo elemento
 
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/owamns/PracticaCalificada4/main/files/p3.png" alt="Logo SOS">
+  <img src="https://raw.githubusercontent.com/owamns/PracticaCalificada4/main/files/p1-3.png" alt="Logo SOS">
 </h1>
 
 ```
@@ -115,3 +115,9 @@ class ClumpsTest {
     }
 }
 ```
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/owamns/PracticaCalificada4/main/files/solp4.png" alt="Logo SOS">
+</h1>
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/owamns/PracticaCalificada4/main/files/p4.png" alt="Logo SOS">
+</h1>
