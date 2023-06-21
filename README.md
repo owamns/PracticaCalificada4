@@ -121,3 +121,24 @@ class ClumpsTest {
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/owamns/PracticaCalificada4/main/files/p4.png" alt="Logo SOS">
 </h1>
+
+De la clase Clumps.java se observa las siguientes ramas:
+- La rama dentro del primer "if" se activa cuando nums == null o nums.length == 0.
+- La rama dentro del primer bucle "for" se activa cuando i < nums.length - 1.
+- La rama dentro del segundo "if" se activa cuando nums[i] == temp && val == 0.
+- La rama dentro del segundo "if" se activa cuando nums[i] != temp.
+```
+Un arreglo vacío: nums = new int []{}. Esto cubre la rama del primer "if" que devuelve 0 sin ejecutar el bucle.
+```
+```
+Un arreglo con un solo elemento: nums = [1]. Esto cubre la rama del primer "if" que devuelve 0 sin ejecutar el bucle.
+```
+```
+Un arreglo con dos elementos iguales: nums = [2, 2]. Esto cubre todas las ramas del código.
+```
+```
+Un arreglo con varios clumps: nums = [1, 2, 2, 3, 3, 3, 4]. Esto cubre todas las ramas del código.
+```
+De esto se puede ver que código cobertura de ramas no abarca los casos del enunciado "Experimenta con el último
+clump en el último elemento del arreglo o con un conjunto que tiene un clump que comienza en la primera
+posición".
